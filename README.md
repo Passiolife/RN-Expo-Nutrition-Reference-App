@@ -21,7 +21,7 @@ yarn
 Step 3:
 
 ```
-npx expo prebuild --clear
+npx expo prebuild --clean
 ```
 
 Step 4:
@@ -36,4 +36,11 @@ Step 5:
 yarn ios
 ```
 
+Step 6:
+
+```
+yarn android
+```
+
+Note: In this repo we only show configure api work in expo dev client build or pre build
 🚀 Happy coding
