@@ -49,35 +49,6 @@ yarn ios
 ## Android
 
 ```
-yarn add expo-build-properties
-```
-
-open app.json and add `minSdkVersion`  in android
-
-```
- "plugins": [
-     ....,
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "minSdkVersion": 26
-          }
-        }
-      ]
-    ],
-```
-
-manually enter below line in dependencies `android/app/build.gradle`
-
-```
-dependencies {
-    ...,
- implementation files("$rootDir/../node_modules/@passiolife/nutritionai-react-native-sdk-v3/android/libs/passiolib-release.aar")
-}
-```
-
-```
 yarn android
 ```
 
