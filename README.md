@@ -55,10 +55,17 @@ yarn add expo-build-properties
 open app.json and add `minSdkVersion`  in android
 
 ```
- "android": {
-      ...,
-      "minSdkVersion": 26,
-    }
+ "plugins": [
+     ....,
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26
+          }
+        }
+      ]
+    ],
 ```
 
 manually enter below line in dependencies `android/app/build.gradle`
