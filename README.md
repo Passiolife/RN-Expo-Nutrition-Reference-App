@@ -26,21 +26,11 @@ Step 3:
 npx expo prebuild --clean
 ```
 
-Step 4:
-
-```
-npx pod-install
-```
-
-or
+## IOS
 
 ```
 cd ios && pod install && cd ..
 ```
-
-## IOS
-
-Step 5:
 
 ```
 yarn ios
