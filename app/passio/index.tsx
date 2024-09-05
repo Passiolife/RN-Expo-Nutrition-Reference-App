@@ -3,15 +3,15 @@ import { StyleSheet } from "react-native";
 import { View, Text, ActivityIndicator } from 'react-native';
 import {
   PassioSDK,
-  DetectionCameraView
 } from '@passiolife/nutritionai-react-native-sdk-v3';
 
 import { useEffect, useState } from "react";
 
-export default function HomeScreen() {
+const key = "PASSIO_LICENSE_KEY";
+
+export default function PassioConfiguration() {
   const [loadingState, setLoadingState] = useState('loading');
   const [isCameraAuthorized, setCameraAuthorized] = useState(false);
-  const key = "PASSIO_LICENSE_KEY";
   const debugMode = true; 
   const autoUpdate = true; 
 
