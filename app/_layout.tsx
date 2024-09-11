@@ -1,27 +1,32 @@
-import { useFonts } from 'expo-font';
-import * as SplashScreen from 'expo-splash-screen';
-import { useEffect } from 'react';
+import React from "react";
 
-import PassioConfiguration from './passio';
-
-SplashScreen.preventAutoHideAsync();
-
-export default function RootLayout() {
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+import { usePassioConfig } from "../node_modules/@passiolife/nutrition-ai-ui-ux/src/hooks/usePassioAuthConfig";
+import { ServicesProvider } from "../node_modules/@passiolife/nutrition-ai-ui-ux/src/contexts/services/ServicesContext";
+import { BrandingProvider } from "../node_modules/@passiolife/nutrition-ai-ui-ux/src/contexts/branding/BrandingContext";
+import { AppNavigator } from "./src/Navigation";
+export default function App() {
+  const { isReady, leftFile } = usePassioConfig({ 
+    key: "", 
   });
-
-  useEffect(() => {
-    if (loaded) {
-      SplashScreen.hideAsync();
-    }
-  }, [loaded]);
-
-  if (!loaded) {
-    return null;
-  }
-
+  console.log("isReady", isReady);
   return (
-   <PassioConfiguration/>
+    <>
+      <ServicesProvider>
+        <BrandingProvider>
+          <AppNavigator /> 
+        </BrandingProvider>
+      </ServicesProvider>
+    </>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
