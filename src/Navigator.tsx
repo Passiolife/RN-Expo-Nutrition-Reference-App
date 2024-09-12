@@ -3,12 +3,16 @@ import React from "react";
 import { enableScreens } from "react-native-screens";
 import { DefaultTheme, NavigationContainer } from "@react-navigation/native";
 
-import { PassioScreens } from "../../node_modules/@passiolife/nutrition-ai-ui-ux/src/navigaitons/PassioScreen";
+import { PassioScreens } from "../node_modules/@passiolife/nutrition-ai-ui-ux/src/navigaitons/PassioScreen";
+
+
+
 
 
 const Stack = createNativeStackNavigator();
 enableScreens();
-export const AppNavigator = () => { 
+
+export const AppNavigator = () => {
   const navTheme = {
     ...DefaultTheme,
     colors: {
@@ -19,7 +23,8 @@ export const AppNavigator = () => {
 
   return (
     <>
-        <NavigationContainer independent theme={navTheme}>
+  
+        <NavigationContainer theme={navTheme}>
           <Stack.Navigator
             screenOptions={{ gestureEnabled: false, animation: "simple_push" }}
             initialRouteName={"PassioNutritionSDK"}>
