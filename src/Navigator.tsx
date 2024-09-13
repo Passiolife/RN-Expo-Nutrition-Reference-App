@@ -2,12 +2,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
 import { enableScreens } from "react-native-screens";
 import { DefaultTheme, NavigationContainer } from "@react-navigation/native";
-
-import { PassioScreens } from "../node_modules/@passiolife/nutrition-ai-ui-ux/src/navigaitons/PassioScreen";
-
-
-
-
+import { PassioScreens } from "@passiolife/nutrition-ai-ui-ux";
 
 const Stack = createNativeStackNavigator();
 enableScreens();
@@ -22,8 +17,6 @@ export const AppNavigator = () => {
   };
 
   return (
-    <>
-  
         <NavigationContainer theme={navTheme}>
           <Stack.Navigator
             screenOptions={{ gestureEnabled: false, animation: "simple_push" }}
@@ -35,6 +28,5 @@ export const AppNavigator = () => {
             />
           </Stack.Navigator>
         </NavigationContainer>
-    </>
   );
 };

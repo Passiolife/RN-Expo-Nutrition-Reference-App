@@ -2131,7 +2131,7 @@ __metadata:
 
 "@passiolife/nutrition-ai-ui-ux@file:../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz::locator=my-app%40workspace%3A.":
   version: 3.1.0-alpha-3
-  resolution: "@passiolife/nutrition-ai-ui-ux@file:../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz#../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz::hash=c7ddd0&locator=my-app%40workspace%3A."
+  resolution: "@passiolife/nutrition-ai-ui-ux@file:../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz#../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz::hash=94ce0f&locator=my-app%40workspace%3A."
   dependencies:
     "@babel/runtime": "npm:^7.23.8"
     "@gorhom/bottom-sheet": "npm:^4.6.1"
@@ -2179,7 +2179,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/26153c1c523d8d61692e53752cd0fa0efe3793c63b6b3e262089b37a478e3a1efe5592f8b9e5cfa76a1426659b254caf49f95ded3a20f152d81797e43a98cb28
+  checksum: 10c0/cf44193fae0580c320d445f29aee906b87e7232ff89c2f8b362c89bb033dbc77a353035d1016faf75a84c4b3f3fd4703eef0d66a6dd74e957ba8ca8e08bcbe7e
   languageName: node
   linkType: hard
 
