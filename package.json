@@ -18,7 +18,8 @@
   "dependencies": {
     "@expo/metro-config": "^0.18.11",
     "@expo/vector-icons": "^14.0.2",
-    "@passiolife/nutrition-ai-ui-ux": "../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz",
+    "@passiolife/nutrition-ai-ui-ux": "3.2.0",
+    "@passiolife/nutritionai-react-native-sdk-v3": "3.2.0-1",
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/native-stack": "^6.9.26",
     "@react-navigation/stack": "^6.3.29",
