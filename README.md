@@ -10,7 +10,7 @@ I recommend to use yarn 1.2.22 latest version before following the below instruc
 
 Step 1:
 
-Open `.npmrc` file
+Open `.yarnrc.yml` file
 
 Add your github token.
 
