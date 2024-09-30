@@ -2129,14 +2129,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@passiolife/nutrition-ai-ui-ux@file:../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz::locator=my-app%40workspace%3A.":
-  version: 3.1.0-alpha-3
-  resolution: "@passiolife/nutrition-ai-ui-ux@file:../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz#../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz::hash=94ce0f&locator=my-app%40workspace%3A."
+"@passiolife/nutrition-ai-ui-ux@npm:3.2.0":
+  version: 3.2.0
+  resolution: "@passiolife/nutrition-ai-ui-ux@npm:3.2.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40passiolife%2Fnutrition-ai-ui-ux%2F3.2.0%2Fbf4fb042f5999f79fe698e59ef54156167c111f0"
   dependencies:
     "@babel/runtime": "npm:^7.23.8"
     "@gorhom/bottom-sheet": "npm:^4.6.1"
     "@notifee/react-native": "npm:^7.8.2"
-    "@passiolife/nutritionai-react-native-sdk-v3": "npm:3.1.4-1"
     "@react-native-async-storage/async-storage": "npm:^1.21.0"
     "@react-native-community/datetimepicker": "npm:^7.6.3"
     "@react-native-community/slider": "npm:^4.5.0"
@@ -2177,19 +2176,20 @@ __metadata:
     use-async-resource: "npm:^2.2.2"
     victory-native: "npm:^37.0.2"
   peerDependencies:
+    "@passiolife/nutritionai-react-native-sdk-v3": "*"
     react: "*"
     react-native: "*"
-  checksum: 10c0/cf44193fae0580c320d445f29aee906b87e7232ff89c2f8b362c89bb033dbc77a353035d1016faf75a84c4b3f3fd4703eef0d66a6dd74e957ba8ca8e08bcbe7e
+  checksum: 10c0/1ee6b6a226e86e225b3171403ce9b78b28c35ccb91600e0bd7831886cfdfe46fa818c8cb36bc61beac6ce6243f26b5c0abc1338253640af05bccad716c989a46
   languageName: node
   linkType: hard
 
-"@passiolife/nutritionai-react-native-sdk-v3@npm:3.1.4-1":
-  version: 3.1.4-1
-  resolution: "@passiolife/nutritionai-react-native-sdk-v3@npm:3.1.4-1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40passiolife%2Fnutritionai-react-native-sdk-v3%2F3.1.4-1%2F0a19d6e90effd17137e7e5235f8b9338773bd3ef"
+"@passiolife/nutritionai-react-native-sdk-v3@npm:3.2.0-1":
+  version: 3.2.0-1
+  resolution: "@passiolife/nutritionai-react-native-sdk-v3@npm:3.2.0-1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40passiolife%2Fnutritionai-react-native-sdk-v3%2F3.2.0-1%2F6915d6400ace8c68f973fadcdb3710c65efb4a55"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/55bed9210ead8afc9c4a9189ffec61ebe1be8f0a310983a541568f328efe1467dcf8f7bbcab9b577ec47170606e349a8842ee693d585c4ca8d1626dabbe848a4
+  checksum: 10c0/55590063ea3afa3e1bffbcd7af63a7d80ba94794555315ff94484e999f945c17da6d9573ec8c4a81acbfa2db6072c5f8c298c34b47c2114df222be0e3a3b66f4
   languageName: node
   linkType: hard
 
@@ -8955,7 +8955,8 @@ __metadata:
     "@babel/core": "npm:^7.20.0"
     "@expo/metro-config": "npm:^0.18.11"
     "@expo/vector-icons": "npm:^14.0.2"
-    "@passiolife/nutrition-ai-ui-ux": ../Nutrition-UX-Distributions/passiolife-nutrition-ai-ui-ux-3.1.0-alpha-3.tgz
+    "@passiolife/nutrition-ai-ui-ux": "npm:3.2.0"
+    "@passiolife/nutritionai-react-native-sdk-v3": "npm:3.2.0-1"
     "@react-navigation/native": "npm:^6.0.2"
     "@react-navigation/native-stack": "npm:^6.9.26"
     "@react-navigation/stack": "npm:^6.3.29"
